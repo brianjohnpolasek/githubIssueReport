@@ -17,15 +17,16 @@ if (len(sys.argv) == 2):
 else:
 	print('Program will exit since no file specified through CLI')
 
-#fileName = 'github_repos.txt'
+#intialize input_data
+input_data = ""
 
 # attempt to open the file given
 try:
 	with open(fileName, 'r') as fileIn:
 		input_data = fileIn.readlines()
-except: OSError
+	fileIn.close()
 
-fileIn.close()
+except: OSError
 
 # remove any new lines produced by reading the file
 input_github_repos = [None] * len(input_data)
@@ -46,10 +47,10 @@ for i in range(0, len(github_repos)):
 # variables used to keep track of the top day and occurences
 date_matrix = []
 overall_top_day = 0
-output_string = ""
+output = ""
 
 # beginning of output string
-print('{\n\t"issues": [\n\t{')
+output += '{\n\t"issues": [\n\t{'
 
 # r = requests.get('https://api.github.com/repos/jwasham/coding-interview-university/issues')
 for i in range(0, len(github_repos)):
@@ -64,7 +65,12 @@ for i in range(0, len(github_repos)):
 	repoMatch = re.findall("\'repository_url\':\s?u\'[a-z:/\-\.]*\'", x)
 	timeMatch = re.findall("\'created_at\':\s?u\'[A-Z:0-9\-]*\'", x)
 
-	# Extracting the date for analysis
+	# check if there are any issues
+	if (len(idMatch) == 0):
+		print('No issues for ' + str(input_github_repos[i]))
+		continue
+
+	# extracting the date for analysis
 	dateMatch = [None] * len(timeMatch)
 
 	for k in range (0, len(timeMatch)):
@@ -90,19 +96,18 @@ for i in range(0, len(github_repos)):
 			overall_top_day = top_day[0]
 
 	# printing
-	
 	for j in range(0, len(idMatch)/2):
-		print('\t\t'),
-		print(idMatch[2*j]),
-		print(',\n\t\t'),
-		print(stateMatch[j]),
-		print(',\n\t\t'),
-		print(titleMatch[j]),
-		print(',\n\t\t'),
-		print(repoMatch[j]),
-		print(',\n\t\t'),
-		print(timeMatch[j]),
-		print('\n\t')
+		output += '\n\t{\n\t\t'
+		output += str(idMatch[2*j])
+		output += ',\n\t\t'
+		output += str(stateMatch[j])
+		output += ',\n\t\t'
+		output += str(titleMatch[j])
+		output += ',\n\t\t'
+		output += str(repoMatch[j])
+		output += ',\n\t\t'
+		output += (timeMatch[j])
+		output += '\n\t}'
 
 # arrays used to calculate the repos with occurences and their corresponding number
 occurences = []
@@ -113,15 +118,28 @@ for i in range(0, len(date_matrix)):
 	for j in range(0, len(date_matrix[i])):
 		if (date_matrix[i][j] == overall_top_day):
 			num_occurs[i] = num_occurs[i] + 1
+
 		if (input_github_repos[i] not in occurences):
 			occurences.append(input_github_repos[i])
 	
 
-print('\t}\n\t],\n\t"top_day:" {\n\t\t"day": '),
-print(overall_top_day)
-print('\t\t"occurences:" {\n\t\t'),
+output += '\n\t],\n\t"top_day:" {\n\t\t"day": '
+output += str(overall_top_day)
+output += '\n\t\t"occurences:" {\n\t\t'
 
 for i in range(0, len(occurences)):
-	print(occurences[i] + ': ' + str(num_occurs[i]))
+	output += str(occurences[i])
+	output +=  ': '
+	output += str(num_occurs[len(occurences) - i - 1])
+	output += '\n\t\t'
 
-print('\t\t}\n\t}\n}')
+output += '\t\t}\n\t}'	
+
+# attempt to open the file given
+try:
+	with open('output.txt', 'w') as fileOut:
+		input_data = fileOut.write(output)
+	fileOut.close()
+	print('File successfully written to output.txt')
+
+except: OSError

@@ -1,0 +1,424 @@
+{
+	"issues": [
+	{
+	{
+		'id': 405283631,
+		'state': u'open',
+		'title': u'Updating Code',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2019-01-31T14:55:56Z'
+	}
+	{
+		'id': 391805815,
+		'state': u'open',
+		'title': u'Tail Recursion Youtube Video Link Broken',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2018-12-17T17:03:40Z'
+	}
+	{
+		'id': 386492223,
+		'state': u'open',
+		'title': u'Translation : Korean',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2018-12-01T19:59:16Z'
+	}
+	{
+		'id': 386294613,
+		'state': u'open',
+		'title': u'Add Challenge Site',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2018-11-30T18:11:04Z'
+	}
+	{
+		'id': 384884736,
+		'state': u'open',
+		'title': u'Progress',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2018-11-27T16:40:36Z'
+	}
+	{
+		'id': 384136391,
+		'state': u'open',
+		'title': u'Update README.md',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2018-11-26T00:28:52Z'
+	}
+	{
+		'id': 382523711,
+		'state': u'open',
+		'title': u'\u5b8c\u6210\u4e8b\u9879\u66f4\u65b0',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2018-11-20T06:49:18Z'
+	}
+	{
+		'id': 379453085,
+		'state': u'open',
+		'title': u'Jeff H Sipe YouTube channel is useful',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2018-11-10T19:23:05Z'
+	}
+	{
+		'id': 375520483,
+		'state': u'open',
+		'title': u'Update README.md',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2018-10-30T14:31:56Z'
+	}
+	{
+		'id': 373652838,
+		'state': u'open',
+		'title': u'Hash Table section probably incorrect link',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2018-10-24T19:59:22Z'
+	}
+	{
+		'id': 373642781,
+		'state': u'open',
+		'title': u'Hash Tables Section incorrect link',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2018-10-24T19:32:15Z'
+	}
+	{
+		'id': 368143756,
+		'state': u'open',
+		'title': u'Added Red Black Tree',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2018-10-09T10:30:01Z'
+	}
+	{
+		'id': 325585208,
+		'state': u'open',
+		'title': u'"Tree Height Remark (video)" under "Heap / Priority Queue / Binary Heap"',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2018-05-23T07:40:25Z'
+	}
+	{
+		'id': 303366535,
+		'state': u'open',
+		'title': u"Youtube video on garbage collection doesn't exist anymore", u'comments': 2, u'state': u'open',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2018-03-08T06:03:12Z'
+	}
+	{
+		'id': 300782355,
+		'state': u'open',
+		'title': u'Translation:  French #chunk4',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2018-02-27T20:32:52Z'
+	}
+	{
+		'id': 298567408,
+		'state': u'open',
+		'title': u'Translation: Traditional Chinese',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2018-02-20T11:56:34Z'
+	}
+	{
+		'id': 296579045,
+		'state': u'open',
+		'title': u'French Translation of parts :  Why to Use it  & How to use it',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2018-02-13T01:02:05Z'
+	}
+	{
+		'id': 282364228,
+		'state': u'open',
+		'title': u'Translation: Burmese',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2017-12-15T09:18:13Z'
+	}
+	{
+		'id': 281155011,
+		'state': u'open',
+		'title': u'English "README.md" file to the Turkish version',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2017-12-11T20:23:20Z'
+	}
+	{
+		'id': 278805095,
+		'state': u'open',
+		'title': u"Playlist under Process & Threads doesn't exist anymore", u'comments': 0, u'state': u'open',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2017-12-03T18:09:42Z'
+	}
+	{
+		'id': 272938313,
+		'state': u'open',
+		'title': u'How many years I need to finish all of this stuff?',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2017-11-10T13:50:13Z'
+	}
+	{
+		'id': 269621981,
+		'state': u'open',
+		'title': u'Translation : Japanese',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2017-10-30T14:34:19Z'
+	}
+	{
+		'id': 269536084,
+		'state': u'open',
+		'title': u'update id translation',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2017-10-30T09:45:44Z'
+	}
+	{
+		'id': 269315463,
+		'state': u'open',
+		'title': u'Translate to ukrainian up to "Lang-specific" part',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2017-10-28T12:59:11Z'
+	}
+	{
+		'id': 262664211,
+		'state': u'open',
+		'title': u'Translation: Bangla',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2017-10-04T04:50:55Z'
+	}
+	{
+		'id': 261887759,
+		'state': u'open',
+		'title': u'Translation: Japanese',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2017-10-01T02:58:17Z'
+	}
+	{
+		'id': 251476141,
+		'state': u'open',
+		'title': u'Translation : Malayalam',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2017-08-20T09:03:46Z'
+	}
+	{
+		'id': 225235163,
+		'state': u'open',
+		'title': u'Update some words and Adding in readme-hi.md',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2017-04-29T05:30:06Z'
+	}
+	{
+		'id': 221959400,
+		'state': u'open',
+		'title': u'add first release of Persian translation',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2017-04-15T16:52:42Z'
+	}
+	{
+		'id': 221236713,
+		'state': u'open',
+		'title': u'Translation : Persian',,
+		'repository_url': u'https://api.github.com/repos/jwasham/coding-interview-university',
+		'created_at': u'2017-04-12T11:48:26Z'
+	}
+	{
+		'id': 414319341,
+		'state': u'open',
+		'title': u'Social links?',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-25T21:40:23Z'
+	}
+	{
+		'id': 414285279,
+		'state': u'open',
+		'title': u'Implement prefers colorscheme media query',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-25T20:11:49Z'
+	}
+	{
+		'id': 414222637,
+		'state': u'open',
+		'title': u'feat: enable rouge highlighter',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-25T17:36:39Z'
+	}
+	{
+		'id': 413886834,
+		'state': u'open',
+		'title': u'Adds Meta Description Tag',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-25T00:07:04Z'
+	}
+	{
+		'id': 413865432,
+		'state': u'open',
+		'title': u'remove duplicated repository owner name all over the site',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-24T20:40:41Z'
+	}
+	{
+		'id': 413819582,
+		'state': u'open',
+		'title': u'Update README.md to include bundle install instruction',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-24T13:07:36Z'
+	}
+	{
+		'id': 413701891,
+		'state': u'open',
+		'title': u'Code highlight?',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-23T14:39:03Z'
+	}
+	{
+		'id': 413663216,
+		'state': u'open',
+		'title': u'show contributions count or activity',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-23T06:18:35Z'
+	}
+	{
+		'id': 413658254,
+		'state': u'open',
+		'title': u'Make stargazers and forks stick to bottom of repo cards',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-23T05:07:33Z'
+	}
+	{
+		'id': 413631220,
+		'state': u'open',
+		'title': u'Add `bundle install` step to install instructions',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-23T00:37:14Z'
+	}
+	{
+		'id': 413599159,
+		'state': u'open',
+		'title': u'Add links to stargazers and forks',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-22T22:11:00Z'
+	}
+	{
+		'id': 413565793,
+		'state': u'open',
+		'title': u'Add Language colors for the repositories.',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-22T20:27:07Z'
+	}
+	{
+		'id': 413522200,
+		'state': u'open',
+		'title': u'repository.owner.login is same for all',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-22T18:22:31Z'
+	}
+	{
+		'id': 413492039,
+		'state': u'open',
+		'title': u'fix posts may be not found problem',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-22T16:58:07Z'
+	}
+	{
+		'id': 413475598,
+		'state': u'open',
+		'title': u'Improve style by making stargazers and forks stick to bottom of repo card',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-22T16:18:44Z'
+	}
+	{
+		'id': 413472253,
+		'state': u'open',
+		'title': u'Add repository language badge to repo-card',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-22T16:10:47Z'
+	}
+	{
+		'id': 413145813,
+		'state': u'open',
+		'title': u"Liquid Exception: 'if' tag was never closed included in /_layouts/home.html", u'comments': 0, u'state': u'open',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-21T22:06:53Z'
+	}
+	{
+		'id': 413053519,
+		'state': u'open',
+		'title': u'Choose which projects to showcase',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-21T18:02:30Z'
+	}
+	{
+		'id': 412846647,
+		'state': u'open',
+		'title': u'Simplify onboarding',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-21T10:15:05Z'
+	}
+	{
+		'id': 412827820,
+		'state': u'open',
+		'title': u'Excluding forks and sorting by stargazers',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-21T09:32:18Z'
+	}
+	{
+		'id': 412390913,
+		'state': u'open',
+		'title': u'Add missed step to install dependencies',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-20T12:02:06Z'
+	}
+	{
+		'id': 412387605,
+		'state': u'open',
+		'title': u'Showcase pinned repositories',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-20T11:53:20Z'
+	}
+	{
+		'id': 412382248,
+		'state': u'open',
+		'title': u'Feat/dotenv',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-20T11:39:11Z'
+	}
+	{
+		'id': 412381961,
+		'state': u'open',
+		'title': u'feat: sort repo by pushed date',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-20T11:38:23Z'
+	}
+	{
+		'id': 412267057,
+		'state': u'open',
+		'title': u'Delete generated code',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-20T06:33:32Z'
+	}
+	{
+		'id': 412122201,
+		'state': u'open',
+		'title': u'Let the user pick their favorite SSG',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-19T21:01:05Z'
+	}
+	{
+		'id': 412028766,
+		'state': u'open',
+		'title': u'Demo?',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-19T17:02:34Z'
+	}
+	{
+		'id': 411607372,
+		'state': u'open',
+		'title': u'Ruby-ffi install error on Mac OSX 10.14',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-02-18T18:55:47Z'
+	}
+	{
+		'id': 403235693,
+		'state': u'open',
+		'title': u'Clean up primer packages & process',,
+		'repository_url': u'https://api.github.com/repos/github/personal-website',
+		'created_at': u'2019-01-25T16:43:05Z'
+	}
+	],
+	"top_day:" {
+		"day": ['2019-02-22']
+		"occurences:" {
+		jwasham/coding-interview-university: 6
+		brianjohnpolasek/Individual-Assignment: 0
+				}
+	}
