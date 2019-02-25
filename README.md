@@ -1,11 +1,19 @@
-# githubIssueReport
-Python program that take an input of Github repositories in the format "owner/repository" and returns a String of Json data including all of the issues, as well as repository names corresponding to the most problematic day.
+# Github Issue Report
+The purpose of this programe is to take an input of Github repositories in the format "owner/repository" and returns a String of Json data including all of the issues, as well as repository names corresponding to the most problematic day.
 
-Example Input: (Text file)
+## Executing the Program
+The key to this program is a python script named _githubIssuesReport.py_. This script can either be run by executing the python script with the input text file as a command line argument, or running the shell script named _executeGithubIssuesReport.sh_, which runs the program with the example input file provided. This shell script can be eddited to take in a custom text file of github repositories as well.
+
+## Example Program Execution
+**Example Input:** (Text file, for this example called _github_repos.txt_)
 > owner1/repository1
+
 > owner2/repository2
 
-Example Output:
+**Example Terminal Input**
+> python githubIssuesReport.py github_repos.txt
+
+**Example Output:**
 ```json
 {
   "issues": [
@@ -40,3 +48,4 @@ Example Output:
   }
 }
 ```
+
